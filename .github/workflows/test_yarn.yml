@@ -1,3 +1,4 @@
+name: Yarn test
 on:
   workflow_dispatch:
 
