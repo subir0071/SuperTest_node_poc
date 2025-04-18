@@ -4,19 +4,7 @@
 name: Node.js CI
 
 on:
-  push:
-    branches:
-        - main
-        - issue-*
-  pull_request:
-    branches:
-        - main
-        - issue-*
-permissions:
-  statuses: write
-  checks: write
-  contents: write
-  pull-requests: write
+  workflow_dispatch:
 
 jobs:
   build:
